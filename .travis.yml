@@ -1,0 +1,25 @@
+language: node_js
+matrix:
+  include:
+    # Ubuntu 14.04
+    - os: linux
+      dist: trusty
+      node_js:
+        - "9.11.1"
+      script:
+        - npm run dist || true
+        - npm run build || true
+        - npm run lint
+        - npm test
+      after_success: npm run coverage
+    # macOS 10.12
+    - os: osx
+      osx_image: xcode8.3
+      node_js:
+        - "9.11.1"
+      script:
+        - npm run dist || true
+        - npm run build || true
+        - npm run lint
+        - npm test
+      after_success: npm run coverage
