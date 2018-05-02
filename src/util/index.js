@@ -1,5 +1,6 @@
 const
   ffprobe = require('./ffprobe'),
+  ffmpeg = require('./ffmpeg'),
   filehash = require('./filehash'),
   FSUtil = require('./fs'),
   fsTags = require('./fs-tags'),
@@ -9,6 +10,7 @@ const
 
 module.exports = {
   ffprobe,
+  ffmpeg,
   filehash,
   FSUtil,
   fsTags,
