@@ -11,7 +11,7 @@ const
   },
   thumbsConf = {
     screenshots: {
-      count: 50
+      count: process.env.THUMBS_COUNT || 10
     },
     gif: {
       delay: 50,
@@ -47,7 +47,7 @@ class VideoUtil {
 
   static videoThumbs (source, dest) {
     const
-      tmp = path.resolve(process.env.TMP_DATA),
+      tmp = path.resolve(process.env.TMP_DATA || '/var/tmp'),
       dirs = {
         in: path.join(tmp, ObjectUtil.uuid4()),
         out: path.join(tmp, ObjectUtil.uuid4())

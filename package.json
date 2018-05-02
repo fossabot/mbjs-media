@@ -1,7 +1,7 @@
 {
   "name": "mbjs-media",
   "productName": "MB.js Media",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library for media handling functionality",
   "main": "src/index.js",
   "keywords": [
