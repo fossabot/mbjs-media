@@ -15,6 +15,7 @@
 ## Stability
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmotionbank-js%2Fmbjs-media.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmotionbank-js%2Fmbjs-media?ref=badge_shield)
 
 This module is still under active development and subject to non-backwards compatible changes, or even removal of features, in any future version.
 
@@ -24,3 +25,6 @@ This module is still under active development and subject to non-backwards compa
 :copyright: 2018 Mainz University of Applied Sciences (Motion Bank Project) – 
 Released under the [MIT](https://github.com/motionbank-js/mbjs-media/blob/master/LICENSE) license
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmotionbank-js%2Fmbjs-media.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmotionbank-js%2Fmbjs-media?ref=badge_large)
